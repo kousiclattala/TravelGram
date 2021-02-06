@@ -10,7 +10,10 @@ This a Instagram inspired App called Travelgram. This is a Full-Fledged social m
 - Angular Fire (@angular/fire), This is used for how to implement firebase in angular.
   For docs visit 👉 [AngularFire](https://github.com/angular/angularfire).
 
-- Toastr , for sending toast messages to the user like this ![](./images/toastr.jpg).
+- Toastr , for sending toast messages to the user like this
+
+![](./images/toastr.jpg).
+
 - FontAwesomeModule (@fortawesome/fontawesome), used for icons `like` and `dislike`.
 - Bootstrap, for styling part.
 
@@ -25,8 +28,8 @@ This a Instagram inspired App called Travelgram. This is a Full-Fledged social m
 ![](./images/signup.jpg)
 
 - Home Page
-  _ Here right-hand side rendering the list of users in db.
-  _ Left-Hand side rendering the list of posts in db.
+   - Here right-hand side rendering the list of users in db.
+   - Left-Hand side rendering the list of posts in db.
 
 ![](./images/home-page.jpg)
 
@@ -48,6 +51,6 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 
 ![](./images/env.jpg)
 
-your firebase credentails are present in `login to firebase console` --> `go to settings` , scroll down you will see `cdn and config` options select **config**, now copy and paste the details in `environment.ts` as shown in above.
+your firebase credentails are present in `login to firebase console` --> `go to settings` , scroll down you will see `cdn and config` options select `config`, now copy and paste the details in `environment.ts` as shown in above.
 
 - To run your App enter the command mentioned in `Development server`.
