@@ -1,27 +1,53 @@
 # Travelgram
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.5.
+## About
+
+This a Instagram inspired App called Travelgram. This is a Full-Fledged social media app with **SignIn**, **SignUp**, **AddPost**, **Like and Dislike** a post.
+
+## Topics Learned/Used
+
+- Firebase (Authentication, Database, Storage)
+- Angular Fire (@angular/fire), This is used for how to implement firebase in angular.
+  For docs visit 👉 [AngularFire](https://github.com/angular/angularfire).
+
+- Toastr , for sending toast messages to the user like this ![](./images/toastr.jpg).
+- FontAwesomeModule (@fortawesome/fontawesome), used for icons `like` and `dislike`.
+- Bootstrap, for styling part.
+
+## Images
+
+- SignIn Page
+
+![](./images/signin.jpg)
+
+- SignUp Page
+
+![](./images/signup.jpg)
+
+- Home Page
+  _ Here right-hand side rendering the list of users in db.
+  _ Left-Hand side rendering the list of posts in db.
+
+![](./images/home-page.jpg)
+
+- AddPost Page
+
+![](./images/addpost.jpg).
 
 ## Development server
 
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.5.
+
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
+## Note
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- After cloning the project into your machine, run `npm install` it will install all necessary dependencies into your project.
 
-## Build
+- Make sure you include your firebase credentials in `environment.ts` file in here
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+![](./images/env.jpg)
 
-## Running unit tests
+your firebase credentails are present in `login to firebase console` --> `go to settings` , scroll down you will see `cdn and config` options select **config**, now copy and paste the details in `environment.ts` as shown in above.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- To run your App enter the command mentioned in `Development server`.

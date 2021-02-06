@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "angular01-24b89": {
+      "hosting": {
+        "travelgram": [
+          "angular01-24b89"
+        ]
+      }
+    }
+  }
+}
